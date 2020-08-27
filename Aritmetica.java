@@ -40,5 +40,12 @@ public class Aritmetica {
 		} else {
 			System.out.printf("O maior é: %d\n", n2);
 		}
+		
+		// n1 é múltiplo de n2 ?
+		if (n1 % n2 == 0) {
+			System.out.println("n1 é múltiplo de n2");
+		} else {
+			System.out.println("n1 não é múltiplo de n2");
+		}
 	}
 }
