@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Aritmetica {
+public class Aritmetica {			
 	public static void main(String[] args) {
 		int n1;  // primeiro número solicitado
 		int n2;  // segundo número solicitado
@@ -32,5 +32,13 @@ public class Aritmetica {
 		System.out.printf("Diferença: %d\n", diferenca);
 		System.out.printf("Produto: %d\n", produto);
 		System.out.printf("Divisão: %d\n", divisao);
+		
+		if (n1 == n2) {
+			System.out.println("Os números são iguais");
+		} else if (n1 > n2) {
+			System.out.printf("O maior é: %d\n", n1);
+		} else {
+			System.out.printf("O maior é: %d\n", n2);
+		}
 	}
 }
